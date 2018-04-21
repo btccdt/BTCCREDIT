@@ -305,7 +305,7 @@ public:
         switch(nVersion)
         {
             case PUBKEY_ADDRESS:
-                nExpectedSize = 20; // Hash of public key
+                nExpectedSize = 34; // Hash of public key
                 fExpectTestNet = false;
                 break;
             case SCRIPT_ADDRESS:
